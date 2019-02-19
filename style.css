@@ -1,0 +1,46 @@
+/*
+ Theme Name:   Twenty Nineteen Enfant
+ Theme URI:    http://referenced.ca/
+ Description:  Twenty Nineteen Child Enfant
+ Author:       Vincent Gagnon
+ Author URI:   http://referenced.ca/
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-nineteen-enfant
+*/
+
+.site-branding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+/*
+.site-description{
+    display: flex;
+    flex-direction: column;
+}*/
+
+/*
+.site-branding .site-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}*/
+
+
+.site-branding ­> .site-title{
+    background-color: brown;
+}
+
+.editor-post-title__input{
+    background-color: brown;
+}
+
+.etiquette-image p{
+    background-color: paleturquoise;
+}
