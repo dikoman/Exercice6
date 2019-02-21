@@ -30,15 +30,17 @@
 
 /* Classe Gutenberg #1*/
 .etiquette-image p{
-    /*background-color: paleturquoise;*/
+    background-color: grey;
+	  font-style: italic !important;
 }
 
 /* Classe Gutenberg #2*/
 .italique{
     font-style: italic !important;
     color: brown;
-    /*nnn*/
 }
 
 /* Classe Gutenberg #3*/
-
+.DessousImage{
+	font-size: 0.9em;
+}
