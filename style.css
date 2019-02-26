@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  * Chrome renders extra-wide &nbsp; characters for the Hoefler Text font.
  * This results in a jumping cursor when typing in both the Classic and block
@@ -209,8 +210,8 @@
   color: #767676;
   font-weight: normal;
   margin: 0;
-  -webkit-animation: AnimationOpacity2 ease 5s;
-          animation: AnimationOpacity2 ease 5s;
+  -webkit-animation: AnimationOpacity2 ease 6s;
+          animation: AnimationOpacity2 ease 6s;
 }
 
 .site-header.featured-image {
@@ -833,6 +834,16 @@
   .entry .entry-content .wp-audio-shortcode {
     max-width: calc(6 * (100vw / 12) - 28px);
   }
+}
+
+/*GUTENBERG CLASS*/
+.italique {
+  color: #5c0000;
+}
+
+/*GUTENBERG CLASS*/
+.etiquette-image {
+  /*déjà modifié*/
 }
 
 /* Author description */
