@@ -126,6 +126,9 @@
   display: inline;
   color: #111;
   /* When there is no description set, make sure navigation appears below title. */
+  display: none;
+  -webkit-animation: AnimationOpacity ease 3s;
+          animation: AnimationOpacity ease 3s;
 }
 
 .site-title a {
@@ -165,11 +168,49 @@
   margin: 0 .2em;
 }
 
+@-webkit-keyframes AnimationOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes AnimationOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes AnimationOpacity2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes AnimationOpacity2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .site-description {
-  display: inline;
+  display: none;
   color: #767676;
   font-weight: normal;
   margin: 0;
+  -webkit-animation: AnimationOpacity2 ease 5s;
+          animation: AnimationOpacity2 ease 5s;
 }
 
 .site-header.featured-image {
