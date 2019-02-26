@@ -281,8 +281,8 @@
 
 		/* When image filters are active, a blue overlay is added. */
 		.image-filters-enabled & {
-			background: mix($color__link, black, 12%);
-			opacity: 0.38;
+			background: mix($color__link, black, 100%);
+			opacity: 0.10;
 
 			@include media(tablet) {
 				opacity: 0.18;

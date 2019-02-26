@@ -459,7 +459,7 @@
 }
 
 .image-filters-enabled .site-header.featured-image .site-featured-image:before {
-  background: #0073aa;
+  background: #424242;
   mix-blend-mode: screen;
   opacity: 0.1;
 }
@@ -472,7 +472,7 @@
 }
 
 .image-filters-enabled .site-header.featured-image .site-featured-image:after {
-  background: #0073aa;
+  background: #424242;
   opacity: .8;
   z-index: 3;
   /* Browsers supporting mix-blend-mode don't need opacity < 1 */
@@ -512,8 +512,8 @@
 }
 
 .image-filters-enabled .site-header.featured-image:after {
-  background: #000e14;
-  opacity: 0.38;
+  background: #424242;
+  opacity: 0.10;
 }
 
 @media only screen and (min-width: 768px) {
@@ -626,7 +626,7 @@
 .entry .entry-meta a:hover,
 .entry .entry-footer a:hover {
   text-decoration: none;
-  color: #0073aa;
+  color: #424242;
 }
 
 .entry .entry-meta .svg-icon,
@@ -723,14 +723,14 @@
 }
 
 .image-filters-enabled .entry .post-thumbnail:before {
-  background: #0073aa;
+  background: #424242;
   mix-blend-mode: screen;
   opacity: 0.1;
   z-index: 2;
 }
 
 .image-filters-enabled .entry .post-thumbnail:after {
-  background: #0073aa;
+  background: #424242;
   mix-blend-mode: multiply;
   opacity: .8;
   z-index: 3;
@@ -776,7 +776,7 @@
 }
 
 .entry .entry-content .more-link:hover {
-  color: #0073aa;
+  color: #424242;
   text-decoration: none;
 }
 
@@ -844,6 +844,7 @@
 /*GUTENBERG CLASS*/
 .etiquette-image {
   /*déjà modifié*/
+  color: white;
 }
 
 /* Author description */
@@ -900,7 +901,7 @@
 }
 
 .author-bio .author-description .author-link:hover {
-  color: #005177;
+  color: #292929;
   text-decoration: none;
 }
 
@@ -1159,7 +1160,7 @@
 }
 
 .comment .comment-author .fn a:hover {
-  color: #005177;
+  color: #292929;
 }
 
 .comment .comment-author .post-author-badge {
@@ -1167,7 +1168,7 @@
   display: block;
   height: 18px;
   position: absolute;
-  background: #008fd3;
+  background: #565656;
   right: calc(100% - 2.5rem);
   top: -3px;
   width: 18px;
@@ -1203,7 +1204,7 @@
 
 .comment .comment-metadata > a:hover,
 .comment .comment-metadata .comment-edit-link:hover {
-  color: #005177;
+  color: #292929;
   text-decoration: none;
 }
 
@@ -1236,7 +1237,7 @@
 }
 
 .comment .comment-metadata .comment-edit-link:hover {
-  color: #0073aa;
+  color: #424242;
 }
 
 .comment .comment-content {
@@ -1276,7 +1277,7 @@
 
 .comment-reply-link:hover,
 #cancel-comment-reply-link:hover {
-  color: #005177;
+  color: #292929;
 }
 
 .discussion-avatar-list {
@@ -1473,7 +1474,7 @@
 
 #colophon .site-info a:hover {
   text-decoration: none;
-  color: #0073aa;
+  color: #424242;
 }
 
 #colophon .site-info .imprint,
