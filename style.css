@@ -523,11 +523,11 @@
 }
 
 .site-header.featured-image ::-moz-selection {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(66, 66, 66, 0.2);
 }
 
 .site-header.featured-image ::selection {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(66, 66, 66, 0.2);
 }
 
 /*--------------------------------------------------------------
