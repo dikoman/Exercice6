@@ -276,26 +276,26 @@
 		 * but smooth effect when resizing the screen.
 		 */
 		transition: opacity 1200ms ease-in-out;
-		opacity: 0.7;
+		opacity: 0.2;
 		z-index: 5;
 
 		/* When image filters are active, a blue overlay is added. */
 		.image-filters-enabled & {
 			background: mix($color__link, black, 100%);
-			opacity: 0.10;
+			opacity: 0.2;
 
 			@include media(tablet) {
-				opacity: 0.18;
+				opacity: 0.2;
 			}
 		}
 	}
 
 
 	::-moz-selection {
-		background: rgba($color__background-body, 0.17);
+		background: rgba($color__background-body, 0.2);
 	}
 
 	::selection {
-		background: rgba($color__background-body, 0.17);
+		background: rgba($color__background-body, 0.2);
 	}
 }
