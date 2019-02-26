@@ -1,0 +1,28 @@
+.site-branding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-branding ­> .site-title{
+    background-color: brown;
+}
+
+/* Classe Gutenberg #1*/
+.etiquette-image p{
+    background-color: grey;
+	  font-style: italic !important;
+}
+
+/* Classe Gutenberg #2*/
+.italique{
+    font-style: italic !important;
+    color: brown;
+}
+
+/* Classe Gutenberg #3*/
+.DessousImage{
+    font-size: 1em;
+    /**/
+}
