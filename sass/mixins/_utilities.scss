@@ -15,7 +15,6 @@
 	@if desktop == $res {
 		@media only screen and (min-width: $desktop_width) {
 			@content;
-
 		}
 	}
 
