@@ -15,12 +15,14 @@
 	@if desktop == $res {
 		@media only screen and (min-width: $desktop_width) {
 			@content;
+
 		}
 	}
 
 	@if wide == $res {
 		@media only screen and (min-width: $wide_width) {
 			@content;
+			
 		}
 	}
 }

@@ -12,7 +12,7 @@
 get_header();
 ?>
 
-zzzzzzzzzzzzzzzzzzz- category-cours.php -zzzzzzzzzzzzzzzzzzzzz
+
 
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
@@ -25,6 +25,7 @@ zzzzzzzzzzzzzzzzzzz- category-cours.php -zzzzzzzzzzzzzzzzzzzzz
 				?>
 			</header><!-- .page-header -->
 
+			<section class="body-grid">
 			<?php
 			// Start the Loop.
 			while ( have_posts() ) :
@@ -49,6 +50,7 @@ zzzzzzzzzzzzzzzzzzz- category-cours.php -zzzzzzzzzzzzzzzzzzzzz
 
 		endif;
 		?>
+		</section>
 		</main><!-- #main -->
 	</section><!-- #primary -->
 

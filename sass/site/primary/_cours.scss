@@ -1,0 +1,28 @@
+.body-grid{
+	display: grid !important;
+	grid-template-columns: repeat(3, 1fr) !important;
+	grid-auto-rows: auto;
+}
+
+.body-grid a{
+	font-size: 0.25em !important;
+	width: 100% !important;
+}
+
+.entry:first-of-type {
+    margin-top: calc(6 * 1rem) !important;
+}
+
+@include media (mobile){
+	.body-grid{
+		display: grid !important;
+		grid-template-columns: repeat(4, 1fr) !important;
+		grid-auto-rows: auto;
+		grid-gap: 0;
+	}
+
+	.body-grid a{
+		font-size: 0.35em !important;
+		width: 100% !important;
+	}
+}

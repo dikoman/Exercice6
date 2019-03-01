@@ -563,10 +563,6 @@
   margin-top: calc(6 * 1rem);
 }
 
-.entry:first-of-type {
-  margin-top: 0;
-}
-
 .entry .entry-header {
   margin: calc(3 * 1rem) 1rem 1rem;
   position: relative;
@@ -903,41 +899,6 @@
 .author-bio .author-description .author-link:hover {
   color: #292929;
   text-decoration: none;
-}
-
-/*--------------------------------------------------------------
-## Cours
---------------------------------------------------------------*/
-.body-grid {
-  display: -ms-grid !important;
-  display: grid !important;
-  -ms-grid-columns: (1fr)[3] !important;
-      grid-template-columns: repeat(3, 1fr) !important;
-  grid-auto-rows: auto;
-}
-
-.body-grid a {
-  font-size: 0.25em !important;
-  width: 100% !important;
-}
-
-.entry:first-of-type {
-  margin-top: calc(6 * 1rem) !important;
-}
-
-@media only screen and (min-width: 600px) {
-  .body-grid {
-    display: -ms-grid !important;
-    display: grid !important;
-    -ms-grid-columns: (1fr)[4] !important;
-        grid-template-columns: repeat(4, 1fr) !important;
-    grid-auto-rows: auto;
-    grid-gap: 0;
-  }
-  .body-grid a {
-    font-size: 0.35em !important;
-    width: 100% !important;
-  }
 }
 
 /*--------------------------------------------------------------
