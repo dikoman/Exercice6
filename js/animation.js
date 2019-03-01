@@ -9,6 +9,6 @@ window.addEventListener('load', function(){
     element2.display = "block";
     
     /*Console.log*/ 
-    console.log('Animation terminée!');
+    console.log('Animation terminée! ! !');
 
 })
