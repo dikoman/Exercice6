@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA;;GAEG",
+    "mappings": "AAAA;;;;;;EAME",
     "sources": [
         "../sass/site/cours/description-cours.scss"
     ],
