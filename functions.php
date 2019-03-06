@@ -21,5 +21,14 @@ wp_enqueue_script(
     filemtime( get_stylesheet_directory() . '/js/animation.js' )
 );
 
+function extraire_cours( $query ) {
+    if ($query->is_category('cours'))
+    {
+       $query->set( 'posts_per_page', -1 );
+       $query->set( 'orderby', 'title' );
+       $query->set( 'order', 'asc' );
+    }
+ }
+ add_action( 'pre_get_posts', 'extraire_cours' );
 }
 ?>

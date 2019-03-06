@@ -38,8 +38,10 @@ get_header();
 				 */
 				get_template_part( 'template-parts/content/content', 'titre-cours' );
 
+				
 				// End the loop.
 			endwhile;
+			
 
 			// Previous/next page navigation.
 			twentynineteen_the_posts_navigation();
@@ -50,6 +52,7 @@ get_header();
 
 		endif;
 		?>
+		
 		</section>
 		</main><!-- #main -->
 	</section><!-- #primary -->

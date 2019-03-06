@@ -563,6 +563,10 @@
   margin-top: calc(6 * 1rem);
 }
 
+.entry:first-of-type {
+  margin-top: 0;
+}
+
 .entry .entry-header {
   margin: calc(3 * 1rem) 1rem 1rem;
   position: relative;
@@ -899,6 +903,96 @@
 .author-bio .author-description .author-link:hover {
   color: #292929;
   text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+## Cours
+--------------------------------------------------------------*/
+.body-grid {
+  display: -ms-grid !important;
+  display: grid !important;
+  -ms-grid-columns: (1fr)[3] !important;
+      grid-template-columns: repeat(3, 1fr) !important;
+  grid-auto-rows: auto;
+}
+
+.body-grid a {
+  font-size: 0.25em !important;
+  width: 100% !important;
+}
+
+.entry:first-of-type {
+  margin-top: calc(6 * 1rem) !important;
+}
+
+/*ADD LES COULEURS ICI*/
+.session1 {
+  color: red;
+}
+
+.session2 {
+  color: yellow;
+}
+
+.session3 {
+  color: green;
+}
+
+.session4 {
+  color: blue;
+}
+
+.session5 {
+  color: purple;
+}
+
+.session6 {
+  color: saddlebrown;
+}
+
+@media only screen and (min-width: 600px) {
+  .body-grid {
+    display: -ms-grid !important;
+    display: grid !important;
+    -ms-grid-columns: (1fr)[4] !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+    grid-auto-rows: auto;
+    grid-gap: 0px;
+  }
+  .body-grid a {
+    font-size: 0.35em !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .body-grid {
+    display: -ms-grid !important;
+    display: grid !important;
+    -ms-grid-columns: (1fr)[3] !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+    grid-auto-rows: auto;
+    grid-gap: 0px;
+  }
+  .body-grid a {
+    font-size: 0.35em !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 1168px) {
+  .body-grid {
+    display: -ms-grid !important;
+    display: grid !important;
+    -ms-grid-columns: (1fr)[2] !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    grid-auto-rows: auto;
+    grid-gap: 0px;
+  }
+  .body-grid a {
+    font-size: 0.35em !important;
+    width: 100% !important;
+  }
 }
 
 /*--------------------------------------------------------------

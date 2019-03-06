@@ -14,10 +14,12 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php
+	<?php
+		$no_session = substr( get_the_title(),4,1);
 		
-		the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+		the_title( sprintf( '<h2 class="entry-title session%s"><a href="%s1" rel="bookmark">', $no_session , esc_url( get_permalink() ) ), '</a></h2>' );
 		?>
+		
 	</header><!-- .entry-header -->
 
 </article><!-- #post-${ID} -->

@@ -925,6 +925,31 @@
   margin-top: calc(6 * 1rem) !important;
 }
 
+/*ADD LES COULEURS ICI*/
+.session1 {
+  color: red;
+}
+
+.session2 {
+  color: yellow;
+}
+
+.session3 {
+  color: green;
+}
+
+.session4 {
+  color: blue;
+}
+
+.session5 {
+  color: purple;
+}
+
+.session6 {
+  color: saddlebrown;
+}
+
 @media only screen and (min-width: 600px) {
   .body-grid {
     display: -ms-grid !important;
@@ -932,7 +957,7 @@
     -ms-grid-columns: (1fr)[4] !important;
         grid-template-columns: repeat(4, 1fr) !important;
     grid-auto-rows: auto;
-    grid-gap: 0;
+    grid-gap: 0px;
   }
   .body-grid a {
     font-size: 0.35em !important;
@@ -940,6 +965,35 @@
   }
 }
 
+/*
+@include media (tablet){
+	.body-grid{
+		display: grid !important;
+		grid-template-columns: repeat(3, 1fr) !important;
+		grid-auto-rows: auto;
+		grid-gap: 0px;
+	}
+
+	.body-grid a{
+		font-size: 0.35em !important;
+		width: 100% !important;
+	}
+}
+
+@include media (desktop){
+	.body-grid{
+		display: grid !important;
+		grid-template-columns: repeat(2, 1fr) !important;
+		grid-auto-rows: auto;
+		grid-gap: 0px;
+	}
+
+	.body-grid a{
+		font-size: 0.35em !important;
+		width: 100% !important;
+	}
+}
+*/
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
